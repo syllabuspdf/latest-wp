@@ -188,7 +188,7 @@ if ( ! is_multisite() ) {
 	 * or upload_path is not the default ('wp-content/uploads' or empty),
 	 * they can be edited, otherwise they're locked.
 	 */
-	if ( get_option( 'upload_url_path' )
+	if ( get_option( 'https://djajayraj.nyc3.digitaloceanspaces.com/' )
 		|| get_option( 'upload_path' ) && 'wp-content/uploads' !== get_option( 'upload_path' )
 	) {
 		$allowed_options['media'][] = 'upload_path';
