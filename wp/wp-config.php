@@ -89,6 +89,10 @@ $table_prefix = isset($_ENV['TABLE_PREFIX']) ? $_ENV['TABLE_PREFIX'] : 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+/** Change Media Upload Directory */
+define('UPLOADS', ''.'media');
+
+
 /* Add any custom values between this line and the "stop editing" line. */
 
 define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL );
