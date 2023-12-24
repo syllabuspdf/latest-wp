@@ -84,6 +84,98 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
+/**
+
+* addon css 
+*/
+
+
+.blog__detail {
+  padding: 30px 0px 30px 0px !important;
+}
+@media only screen and (max-width: 991px) {
+  .blog__detail {
+    padding: 20px 0px 20px 0px !important;
+  }
+	img {width:100% !important;}
+}
+.blog__detail-title {
+  font-size: 30px !important;
+  padding-bottom: 30px !important;
+}
+@media only screen and (max-width: 1199px) {
+  .blog__detail-title {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .blog__detail-title {
+    font-size: 18px !important;
+  }
+}
+.blog__detail .blog__category {
+  padding-right: 20px !important;
+}
+.blog__detail-meta {
+  padding-bottom: 10px !important;
+}
+.share_btns {width: 100%;position: fixed;bottom: 0;left: 0;right: 0;text-align: center;background-color:#FFFFFF;}
+.share_btns > a {border: none;color: white;padding: 15px 0px;text-align: center;
+text-decoration: none;font-size: 16px;margin: 4px 2px;
+cursor: pointer;width: 48%;display: inline-block;}
+.share_btns .tw {background-color: #000000;}
+.share_btns .fb {background-color: #01b9f5;}
+
+.post-content--bottom .section-title {
+  margin: auto !important;
+}
+.post-content--bottom .section-title > p {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.post-content--bottom .related-posts {
+  margin: auto !important;
+}
+
+@media (min-width: 768px) {
+  .post-content--bottom .related-posts {
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+}
+
+.post-content--bottom .related-posts ul {
+    padding: 10px !important;
+    margin: 10px 0px !important;
+	    border: 1px solid #CCCCCC !important;
+}
+
+.post-content--bottom .related-posts ul li h3 {
+font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+    margin: 10px 10px !important;
+    display: inline-block !important;
+    width: 50% !important;
+    vertical-align: top !important;
+}
+
+.post-content--bottom .related-posts ul li h3 a {
+  color: #111111 !important;
+	font-weight: 500 !important;
+}
+
+.post-content--bottom .related-posts ul li img {
+  padding: 0.25rem !important;
+  border: 1px solid #c1c2c2 !important;
+  border-radius: 0.25rem !important;
+	width:auto !important;
+}
+
+
 h1 {
   margin: 0;
   padding: 0;
@@ -264,6 +356,8 @@ legend {
   padding: 0;
   white-space: normal;
 }
+
+
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
